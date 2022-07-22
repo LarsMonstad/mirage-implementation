@@ -1,0 +1,709 @@
+Starting job 6157421 on c2-9 at Fri Jul 22 02:25:11 CEST 2022
+
+Opening log file:  /cluster/home/lamonsta/java.log.4050
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> 
+
+             ----- Computing Tentogram features before first iteration -----
+
+Runnning:  i = 1     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_angry.wav
+Runnning:  i = 2     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_happy.wav
+Runnning:  i = 3     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_original.wav
+Runnning:  i = 4     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_sad.wav
+Runnning:  i = 5     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_tender.wav
+Batching took 1.3 minutes
+Evaluating took 0.0 minutes
+
+
+             ----- Training Tentogram first iteration -----
+
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 35).
+Loading 1 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_angry.tentcqt
+Loading 2 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_happy.tentcqt
+Loading 3 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_original.tentcqt
+Loading 4 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_sad.tentcqt
+Loading 5 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_tender.tentcqt
+Not using f0
+Not using f0
+Not using f0
+Not using f0
+Not using f0
+Elapsed time is 7.910571 seconds.
+2 3 4 5 Elapsed time is 0.057340 seconds.
+150.84 Mb
+1 Elapsed time is 0.007219 seconds.
+27.58 Mb
+179.99 Mb
+Validation ratio is 0.154568
+Num true: 1524     Num false 12224       percentage of true: 0.110852
+TrueRatio = 0.110852
+179.99 Mb
+Found that the cluster has 35 workers
+
+
+Small check took 0.5 minutes
+Epoch  ---   Mean 39.87    Median 46.0  ---  Min 6  Max 50
+Removing duplicate -797
+Short-list: 158 159 261 157 260 262 147 222 156 148 160 221 149 146 332 240 768 150 769 331 -796 455 -798 263 155 259 239 454 -397 767 220 151 -795 -799 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 92.76    Median 97.5  ---  Min 61  Max 100
+Performance 0.0613         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 40.17    Median 47.0  ---  Min 6  Max 50
+Short-list: 170 169 171 468 469 467 466 172 465 -432 470 -433 -662 168 -431 -434 464 146 147 -661 -435 56 55 463 -41 57 -40 -42 145 -663 148 54 -39 -43 771 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 92.14    Median 97.0  ---  Min 58  Max 100
+Performance 0.0521         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 40.46    Median 47.0  ---  Min 6  Max 50
+Short-list: 366 367 365 364 138 368 139 363 137 362 140 361 -870 -871 -307 -306 -869 -574 141 369 -872 -308 460 459 360 -305 458 258 259 -868 -575 -309 -178 457 461 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 83.26    Median 87.0  ---  Min 37  Max 100
+Performance 0.0479         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 
+
+Small check took 0.5 minutes
+Epoch  ---   Mean 42.13    Median 49.0  ---  Min 7  Max 50
+Short-list: 167 -574 -573 -81 -80 -633 -575 -79 -82 742 743 -634 -748 744 -632 168 455 -599 -874 745 -873 -747 515 -572 741 -598 166 456 6 454 746 -576 -83 7 -600 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 90.69    Median 95.0  ---  Min 52  Max 100
+Performance 0.0439         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 38.18    Median 46.0  ---  Min 5  Max 50
+Short-list: 349 -77 -76 -78 348 -75 -79 350 -80 -74 60 740 61 351 -81 59 739 741 360 333 359 352 62 332 475 353 334 738 -82 58 358 474 354 355 357 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 86.51    Median 91.0  ---  Min 35  Max 100
+Performance 0.0394         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.51    Median 44.0  ---  Min 6  Max 50
+Short-list: -550 -551 -607 -549 -606 -864 -865 -745 -608 -203 -863 -548 -605 -577 61 -202 -826 -746 -827 -744 62 -204 -576 -578 -552 -201 -825 -828 -660 -547 -747 16 -866 63 201 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 92.11    Median 96.0  ---  Min 67  Max 100
+Performance 0.0398         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 36.63    Median 41.0  ---  Min 5  Max 50
+Short-list: -77 -78 -76 -79 -313 304 -312 -314 -311 303 305 -310 306 -309 -75 -315 -579 -580 -308 -80 333 307 186 -578 334 198 233 -307 234 302 197 332 335 -577 308 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 88.37    Median 96.0  ---  Min 35  Max 100
+Performance 0.0363         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.72    Median 44.0  ---  Min 4  Max 50
+Short-list: -421 -420 355 -422 -207 356 354 -419 -206 -208 357 428 -205 353 429 427 221 -209 430 -423 358 352 222 -204 220 -418 431 351 199 693 -203 -210 200 432 684 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 84.51    Median 86.0  ---  Min 16  Max 100
+Performance 0.0364         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 36.49    Median 40.0  ---  Min 4  Max 50
+Removing duplicate -720
+Short-list: -790 -791 -789 -105 -104 -106 -792 -103 -719 184 -107 -718 185 183 280 279 -717 -721 -102 281 -108 165 186 350 -788 182 278 166 -716 164 76 493 351 282 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 86.38    Median 91.5  ---  Min 55  Max 100
+Performance 0.0356         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 33.57    Median 38.0  ---  Min 5  Max 50
+Removing duplicate -557
+Short-list: -101 -102 -103 -100 -104 -105 139 -99 760 761 138 703 9 140 702 762 759 -106 -556 10 763 -555 137 8 -98 424 631 -558 632 758 -373 260 425 475 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 76.56    Median 79.0  ---  Min 17  Max 100
+Performance 0.0339         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 
+
+Small check took 0.4 minutes
+Epoch  ---   Mean 37.00    Median 42.0  ---  Min 5  Max 50
+Removing duplicate 184
+Short-list: 185 -107 -108 -666 -106 -157 -231 -230 318 789 788 186 -232 -229 -667 317 -224 -260 -158 -225 -259 -156 -228 -226 333 787 -227 -223 -109 790 -258 334 316 -261 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 83.59    Median 86.0  ---  Min 41  Max 100
+Performance 0.0340         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.23    Median 43.0  ---  Min 3  Max 50
+Short-list: 152 313 153 312 151 314 311 -790 -791 -789 451 481 480 450 452 482 479 453 -792 449 478 154 483 454 738 -875 409 739 737 736 -876 -874 735 477 310 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 85.23    Median 87.0  ---  Min 40  Max 100
+Performance 0.0331         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 
+
+Small check took 0.4 minutes
+Epoch  ---   Mean 41.52    Median 46.0  ---  Min 5  Max 50
+Short-list: 683 682 684 152 681 153 151 680 685 150 679 149 678 -87 154 -86 -490 148 -88 -428 -85 -427 468 -489 469 686 677 -426 -156 -491 -429 467 -84 205 470 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 82.37    Median 85.0  ---  Min 24  Max 100
+Performance 0.0318         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 41.76    Median 45.0  ---  Min 4  Max 50
+Short-list: 769 770 768 771 767 772 274 680 681 275 273 699 700 773 272 682 276 439 679 766 140 271 698 438 683 464 440 141 465 774 -608 -792 -607 277 270 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 85.09    Median 89.0  ---  Min 36  Max 100
+Performance 0.0314         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 271 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 40.32    Median 44.0  ---  Min 4  Max 50
+Short-list: 781 780 782 779 783 778 772 773 771 777 784 -23 774 776 775 -24 -22 770 -25 785 422 173 421 680 403 172 404 206 207 679 800 174 405 171 402 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 87.00    Median 91.0  ---  Min 64  Max 100
+Performance 0.0313         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 271 -23 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 40.76    Median 45.0  ---  Min 4  Max 50
+Removing duplicate 150
+Short-list: 147 146 -92 -93 503 148 -91 504 502 -718 -717 501 -94 -876 -90 463 -875 149 500 505 -719 462 -877 145 -89 -874 684 -716 683 685 499 464 686 682 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 88.50    Median 97.0  ---  Min 32  Max 100
+Performance 0.0306         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 271 -23 464 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 38.81    Median 44.0  ---  Min 5  Max 50
+Short-list: -792 -793 -791 -794 -790 777 -795 776 778 769 775 770 768 42 771 774 779 772 43 773 767 41 766 780 356 760 355 44 761 765 40 759 357 762 411 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 88.14    Median 94.0  ---  Min 15  Max 100
+Performance 0.0304         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 271 -23 464 356 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 38.48    Median 43.0  ---  Min 5  Max 50
+Removing duplicate -100
+Removing duplicate 359
+Short-list: -256 -793 -257 -792 -794 -791 360 -795 -258 -101 -790 -255 -155 -472 -473 -789 -156 -259 361 -590 -589 -796 80 -474 -471 79 -254 81 676 675 677 -588 674 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 89.09    Median 95.0  ---  Min 47  Max 100
+Performance 0.0303         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 271 -23 464 356 676 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 38.67    Median 43.0  ---  Min 5  Max 50
+Removing duplicate 150
+Short-list: 744 743 -872 -873 745 -871 -789 742 -790 -874 153 152 746 -870 193 192 151 194 154 191 -86 747 -87 -85 741 778 190 195 -869 -875 779 777 -84 -88 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 91.68    Median 97.0  ---  Min 52  Max 100
+Performance 0.0301         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 271 -23 464 356 676 -873 
+Final indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 261 -433 -178 6 359 61 -80 221 184 -100 -228 310 150 271 -23 464 356 676 -873 
+Calculation mode: MEX
+ 
+Training Pattern Recognition Neural Network with TRAINSCG.
+Epoch 0/600, Time 0.037391/43200, Performance 0.58951/0, Gradient 5.7689/1e-06, Validation Checks 0/20
+Epoch 5/600, Time 0.21475/43200, Performance 0.16951/0, Gradient 0.3819/1e-06, Validation Checks 0/20
+Epoch 10/600, Time 0.2616/43200, Performance 0.11879/0, Gradient 0.15128/1e-06, Validation Checks 0/20
+Epoch 15/600, Time 0.30315/43200, Performance 0.10524/0, Gradient 0.10644/1e-06, Validation Checks 0/20
+Epoch 20/600, Time 0.34681/43200, Performance 0.090448/0, Gradient 0.15206/1e-06, Validation Checks 0/20
+Epoch 25/600, Time 0.40295/43200, Performance 0.07895/0, Gradient 0.11352/1e-06, Validation Checks 3/20
+Epoch 30/600, Time 0.46208/43200, Performance 0.072576/0, Gradient 0.12866/1e-06, Validation Checks 0/20
+Epoch 35/600, Time 0.51817/43200, Performance 0.062973/0, Gradient 0.079071/1e-06, Validation Checks 0/20
+Epoch 40/600, Time 0.5711/43200, Performance 0.056238/0, Gradient 0.064837/1e-06, Validation Checks 0/20
+Epoch 45/600, Time 0.62082/43200, Performance 0.05372/0, Gradient 0.044687/1e-06, Validation Checks 3/20
+Epoch 50/600, Time 0.66807/43200, Performance 0.051493/0, Gradient 0.023871/1e-06, Validation Checks 0/20
+Epoch 55/600, Time 0.71346/43200, Performance 0.050355/0, Gradient 0.02213/1e-06, Validation Checks 0/20
+Epoch 60/600, Time 0.75616/43200, Performance 0.048433/0, Gradient 0.041601/1e-06, Validation Checks 0/20
+Epoch 65/600, Time 0.79762/43200, Performance 0.046581/0, Gradient 0.015878/1e-06, Validation Checks 0/20
+Epoch 70/600, Time 0.83866/43200, Performance 0.0461/0, Gradient 0.019057/1e-06, Validation Checks 0/20
+Epoch 75/600, Time 0.87966/43200, Performance 0.044868/0, Gradient 0.025417/1e-06, Validation Checks 0/20
+Epoch 80/600, Time 0.92061/43200, Performance 0.043647/0, Gradient 0.026101/1e-06, Validation Checks 3/20
+Epoch 85/600, Time 0.96228/43200, Performance 0.042845/0, Gradient 0.029619/1e-06, Validation Checks 0/20
+Epoch 90/600, Time 1.0032/43200, Performance 0.04197/0, Gradient 0.020428/1e-06, Validation Checks 0/20
+Epoch 95/600, Time 1.0441/43200, Performance 0.041282/0, Gradient 0.013342/1e-06, Validation Checks 0/20
+Epoch 100/600, Time 1.085/43200, Performance 0.040736/0, Gradient 0.016313/1e-06, Validation Checks 3/20
+Epoch 105/600, Time 1.1259/43200, Performance 0.040054/0, Gradient 0.00732/1e-06, Validation Checks 8/20
+Epoch 110/600, Time 1.1667/43200, Performance 0.039838/0, Gradient 0.0066049/1e-06, Validation Checks 13/20
+Epoch 115/600, Time 1.2076/43200, Performance 0.039703/0, Gradient 0.005242/1e-06, Validation Checks 2/20
+Epoch 120/600, Time 1.2484/43200, Performance 0.039608/0, Gradient 0.0096575/1e-06, Validation Checks 7/20
+Epoch 125/600, Time 1.2893/43200, Performance 0.039357/0, Gradient 0.014785/1e-06, Validation Checks 12/20
+Epoch 130/600, Time 1.3305/43200, Performance 0.039084/0, Gradient 0.018225/1e-06, Validation Checks 17/20
+Epoch 135/600, Time 1.3721/43200, Performance 0.038683/0, Gradient 0.013633/1e-06, Validation Checks 1/20
+Epoch 140/600, Time 1.414/43200, Performance 0.038466/0, Gradient 0.015349/1e-06, Validation Checks 1/20
+Epoch 145/600, Time 1.4555/43200, Performance 0.038328/0, Gradient 0.0070467/1e-06, Validation Checks 1/20
+Epoch 150/600, Time 1.4969/43200, Performance 0.038186/0, Gradient 0.0059863/1e-06, Validation Checks 1/20
+Epoch 155/600, Time 1.5379/43200, Performance 0.038073/0, Gradient 0.0048804/1e-06, Validation Checks 0/20
+Epoch 160/600, Time 1.5787/43200, Performance 0.038016/0, Gradient 0.004554/1e-06, Validation Checks 0/20
+Epoch 165/600, Time 1.6194/43200, Performance 0.037991/0, Gradient 0.0022578/1e-06, Validation Checks 4/20
+Epoch 170/600, Time 1.6602/43200, Performance 0.037969/0, Gradient 0.0033645/1e-06, Validation Checks 9/20
+Epoch 175/600, Time 1.7009/43200, Performance 0.037947/0, Gradient 0.0035072/1e-06, Validation Checks 14/20
+Epoch 180/600, Time 1.7417/43200, Performance 0.03789/0, Gradient 0.0062714/1e-06, Validation Checks 19/20
+Epoch 181/600, Time 1.7501/43200, Performance 0.03788/0, Gradient 0.010553/1e-06, Validation Checks 20/20
+Training with TRAINSCG completed: Training finished: Met validation criterion
+ 
+Final performance 0.029909
+Confusion matrix percent (FF FT
+                          TT TF)
+0.887529   0.002353
+0.102588   0.007529
+
+True cases accuracy: 0.931624
+False cases accuracy: 0.997356
+
+
+
+             ----- Computing Tentogram features before second iteration -----
+
+Runnning:  i = 1     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_angry.wav
+Distorting
+Runnning:  i = 2     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_happy.wav
+Distorting
+Runnning:  i = 3     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_original.wav
+Distorting
+Runnning:  i = 4     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_sad.wav
+Distorting
+Growing tentSpecs: 7.66 Gb	7.66 Gb	
+
+Runnning:  i = 5     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_tender.wav
+Distorting
+Growing tentSpecs: 7.15 Gb	7.15 Gb	
+
+Batching took 2.5 minutes
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 37).
+Evaluating: i = 1     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_angry.wav
+Evaluating: i = 2     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_happy.wav
+Evaluating: i = 3     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_original.wav
+Evaluating: i = 4     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_sad.wav
+Evaluating: i = 5     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_tender.wav
+Evaluating took 1.0 minutes
+
+
+             ----- Training Tentogram second iteration -----
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 35).
+Loading 1 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_angry.tentcqt
+Loading 2 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_happy.tentcqt
+Loading 3 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_original.tentcqt
+Loading 4 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_sad.tentcqt
+Loading 5 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_tender.tentcqt
+Elapsed time is 9.858211 seconds.
+2 3 4 5 Elapsed time is 0.092594 seconds.
+262.33 Mb
+1 Elapsed time is 0.017475 seconds.
+47.60 Mb
+312.66 Mb
+Validation ratio is 0.153588
+Num true: 1524     Num false 22358       percentage of true: 0.063814
+TrueRatio = 0.063814
+312.66 Mb
+Found that the cluster has 35 workers
+
+
+Small check took 0.4 minutes
+Epoch  ---   Mean 44.25    Median 49.0  ---  Min 3  Max 50
+Short-list: 239 240 238 241 237 402 236 401 -182 255 -181 403 242 235 256 254 400 -183 234 -180 -464 233 -463 232 404 231 -465 257 230 253 229 399 228 -462 227 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 94.77    Median 99.0  ---  Min 59  Max 100
+Performance 0.0309         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 43.17    Median 48.0  ---  Min 1  Max 50
+Short-list: 333 334 332 335 331 201 336 200 -146 -145 202 420 421 419 -147 -865 418 -144 422 417 -864 337 -866 -148 416 415 341 330 -863 413 423 414 -149 338 342 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 95.11    Median 98.0  ---  Min 65  Max 100
+Performance 0.0289         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 42.42    Median 48.0  ---  Min 5  Max 50
+Short-list: 352 367 353 368 369 366 351 370 354 365 53 200 35 355 386 52 201 227 36 364 -577 -576 226 371 387 34 350 332 798 -575 799 54 228 -578 385 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 92.03    Median 97.0  ---  Min 61  Max 100
+Performance 0.0271         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 42.44    Median 49.0  ---  Min 5  Max 50
+Removing duplicate 385
+Short-list: 365 364 366 115 14 114 367 15 374 375 13 373 368 116 386 363 113 387 95 -47 16 372 -46 94 96 376 369 371 370 663 93 664 12 -8 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 89.44    Median 94.0  ---  Min 60  Max 100
+Performance 0.0254         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 39.87    Median 49.0  ---  Min 3  Max 50
+Short-list: 775 774 776 773 -112 -113 327 -114 326 328 393 772 -111 394 777 800 325 -115 430 399 799 400 329 392 -871 398 395 -116 -870 324 798 -872 397 396 429 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 90.11    Median 95.0  ---  Min 62  Max 100
+Performance 0.0260         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 40.17    Median 49.0  ---  Min 3  Max 50
+Short-list: 684 685 683 686 -135 -136 682 687 681 -134 688 -137 680 416 671 417 670 212 -100 213 672 669 665 679 -133 664 666 -101 415 689 668 418 211 -99 667 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 90.31    Median 95.0  ---  Min 58  Max 100
+Performance 0.0253         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 39.96    Median 49.0  ---  Min 5  Max 50
+Short-list: -647 -648 -646 -41 -40 -42 -649 -39 339 -43 338 -645 -852 426 -853 340 425 337 48 49 -851 -38 -650 -44 427 -252 336 47 -251 341 -854 -783 -247 50 -250 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 89.57    Median 94.0  ---  Min 63  Max 100
+Performance 0.0256         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 32.31    Median 42.0  ---  Min 3  Max 50
+Short-list: 477 239 476 238 240 237 478 236 241 475 -811 -727 235 -758 -726 -757 -728 -812 234 242 684 -725 -868 -867 -759 -823 683 -824 -810 -787 233 685 474 -756 -869 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 91.83    Median 97.0  ---  Min 70  Max 100
+Performance 0.0247         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 35.82    Median 46.0  ---  Min 1  Max 50
+Short-list: -405 -591 -406 -592 -510 -805 -804 -509 -806 -803 -404 -807 -101 -102 -802 -511 -590 -808 -103 -508 -100 742 -801 743 -593 -809 741 25 264 -104 -407 26 24 -800 -810 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 93.83    Median 99.0  ---  Min 72  Max 100
+Performance 0.0235         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 36.48    Median 46.0  ---  Min 2  Max 50
+Removing duplicate -761
+Short-list: 708 709 707 -409 -408 710 706 203 711 202 -176 349 -410 -177 204 -407 350 240 -175 628 239 681 712 627 -891 736 -890 735 737 -174 -807 -892 -854 -178 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 93.79    Median 97.5  ---  Min 72  Max 100
+Performance 0.0232         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 
+
+Small check took 0.4 minutes
+Epoch  ---   Mean 34.59    Median 44.0  ---  Min 3  Max 50
+Short-list: 649 648 650 647 651 646 652 97 98 99 -827 -266 587 96 588 653 -267 100 -828 -826 645 703 131 -265 702 704 800 -829 130 589 132 586 -579 701 705 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 91.00    Median 95.0  ---  Min 43  Max 100
+Performance 0.0231         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 35.30    Median 45.0  ---  Min 1  Max 50
+Removing duplicate 649
+Removing duplicate -871
+Short-list: 236 237 648 235 44 238 45 647 43 239 -13 -12 130 234 -14 -872 46 650 -15 -17 -18 -16 129 397 240 -19 -11 396 131 72 42 -870 -873 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 94.55    Median 98.0  ---  Min 69  Max 100
+Performance 0.0235         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 35.79    Median 44.0  ---  Min 2  Max 50
+Short-list: -864 -865 -863 389 390 388 -866 -862 387 -820 -821 391 -795 -433 -819 386 -822 -794 403 402 -861 -796 -867 -434 -515 -432 -516 -818 392 505 404 -823 401 -514 -21 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 93.74    Median 98.0  ---  Min 70  Max 100
+Performance 0.0226         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 35.78    Median 43.0  ---  Min 2  Max 50
+Removing duplicate -432
+Short-list: 491 490 492 -367 -366 489 -368 -365 493 15 16 14 779 17 488 250 494 -478 251 -364 373 13 -514 -477 18 -369 23 -418 -811 22 -515 -479 -513 778 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 93.06    Median 97.0  ---  Min 70  Max 100
+Performance 0.0226         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 
+
+Small check took 0.4 minutes
+Epoch  ---   Mean 34.33    Median 43.0  ---  Min 2  Max 50
+Short-list: -705 -704 710 365 366 -703 -706 -733 -627 -732 711 709 -734 -628 -512 364 -702 -731 -735 -513 -265 367 -626 -511 -264 -266 800 712 -736 11 -263 -707 -701 -629 10 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 92.09    Median 93.0  ---  Min 64  Max 100
+Performance 0.0223         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 34.48    Median 44.0  ---  Min 3  Max 50
+Removing duplicate -731
+Short-list: 476 779 475 778 780 781 229 477 228 777 16 -257 -858 -258 230 227 782 -859 -825 -857 17 -824 474 -826 -256 226 -800 -799 -802 -801 -803 776 220 583 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 94.15    Median 97.0  ---  Min 68  Max 100
+Performance 0.0218         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 34.49    Median 45.0  ---  Min 2  Max 50
+Short-list: -802 -803 -37 -801 -36 -38 -804 -384 -385 -39 -35 -386 -383 -805 -40 -800 -41 -34 -499 -387 -806 -498 29 -42 -500 28 30 348 -706 -705 -807 347 -799 -388 775 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 93.29    Median 98.0  ---  Min 53  Max 100
+Performance 0.0222         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 34.50    Median 44.0  ---  Min 3  Max 50
+Short-list: 302 303 304 301 305 300 -110 -900 -109 -899 657 306 -111 658 -898 656 -804 -803 659 299 -108 -802 -805 660 -897 506 505 507 307 -112 508 504 661 655 -806 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 89.43    Median 95.0  ---  Min 52  Max 100
+Performance 0.0219         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 34.02    Median 44.0  ---  Min 3  Max 50
+Short-list: 686 685 -354 -355 684 -353 687 -356 -617 -807 -806 -618 -616 683 365 364 366 -230 -357 363 -352 309 -231 310 -805 -808 367 688 202 -523 201 362 -229 -206 -615 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 94.83    Median 97.0  ---  Min 68  Max 100
+Performance 0.0224         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 35.08    Median 44.0  ---  Min 3  Max 50
+Removing duplicate 26
+Short-list: 409 408 407 782 783 410 781 335 336 784 334 406 337 675 333 674 338 -209 -208 718 676 780 717 -207 673 -206 -210 -739 785 -738 339 716 -205 672 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 94.53    Median 96.5  ---  Min 73  Max 100
+Performance 0.0224         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 
+
+Small check took 0.4 minutes
+Epoch  ---   Mean 34.89    Median 44.0  ---  Min 3  Max 50
+Removing duplicate -240
+Removing duplicate -761
+Short-list: -505 -506 -504 -239 -507 -695 -696 -694 -697 684 685 -241 -760 -508 -238 -759 -698 -456 -368 -337 -173 -503 683 -455 -336 -758 -338 686 -367 -172 -796 -693 -335 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 90.88    Median 96.0  ---  Min 53  Max 100
+Performance 0.0227         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 34.66    Median 44.0  ---  Min 3  Max 50
+Removing duplicate 0
+Short-list: -1 -2 728 729 -251 727 1 -269 -270 -827 -3 -826 -252 -250 730 -828 -268 -825 782 -271 -363 726 781 -312 2 -362 -313 -795 -364 -796 66 65 246 247 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 97.00    Median 99.0  ---  Min 83  Max 100
+Performance 0.0225         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 35.41    Median 45.0  ---  Min 3  Max 50
+Removing duplicate -797
+Removing duplicate -800
+Removing duplicate 408
+Short-list: -795 -794 -796 -793 -798 -799 585 586 584 -792 409 587 583 410 588 780 752 751 582 750 -410 753 779 589 781 188 407 749 -409 -411 -791 411 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 90.88    Median 98.0  ---  Min 53  Max 100
+Performance 0.0222         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 36.05    Median 46.0  ---  Min 1  Max 50
+Removing duplicate -796
+Removing duplicate -797
+Removing duplicate 649
+Short-list: 207 208 206 205 209 306 305 -795 204 307 304 650 -798 -805 -806 210 651 -804 203 -740 -794 -741 303 -799 -739 648 -803 308 -807 -628 730 -627 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 96.31    Median 99.0  ---  Min 56  Max 100
+Performance 0.0222         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 
+
+Small check took 0.4 minutes
+Epoch  ---   Mean 37.06    Median 46.0  ---  Min 3  Max 50
+Removing duplicate 241
+Removing duplicate 26
+Removing duplicate 385
+Short-list: 240 239 238 242 -335 237 -334 243 742 741 25 -336 244 236 424 425 65 -207 66 24 423 743 64 245 -333 -206 740 384 235 426 63 67 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 89.81    Median 97.0  ---  Min 58  Max 100
+Performance 0.0226         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 35.68    Median 45.0  ---  Min 3  Max 50
+Removing duplicate -826
+Removing duplicate 375
+Removing duplicate -830
+Removing duplicate -380
+Short-list: 377 378 376 -828 248 -827 -829 249 247 379 -381 411 250 -825 -382 246 -822 -824 -821 -823 410 412 -277 -820 251 -711 -276 -383 -278 245 51 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 90.97    Median 96.0  ---  Min 53  Max 100
+Performance 0.0221         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 36.12    Median 46.0  ---  Min 2  Max 50
+Removing duplicate 385
+Removing duplicate -761
+Removing duplicate -759
+Short-list: 384 383 -607 -606 386 382 -608 -262 381 -605 387 -263 -261 -609 380 -805 -804 -604 459 460 -806 379 -760 -249 -264 257 -803 -610 -504 256 458 -248 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 97.69    Median 99.0  ---  Min 71  Max 100
+Performance 0.0221         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.64    Median 46.0  ---  Min 1  Max 50
+Removing duplicate -759
+Short-list: -490 -489 -757 -758 -756 -488 -491 -755 -487 -459 -492 -486 -458 -460 -485 -483 -482 -754 -484 -760 -457 -481 659 215 658 383 216 382 214 -493 634 381 212 384 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 96.41    Median 99.0  ---  Min 68  Max 100
+Performance 0.0216         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.16    Median 45.0  ---  Min 1  Max 50
+Removing duplicate 382
+Removing duplicate 385
+Removing duplicate 380
+Removing duplicate 408
+Short-list: 383 384 381 386 -571 -570 406 405 -572 -569 387 379 407 404 388 -704 -703 -573 -568 -705 403 -702 -690 -706 389 -459 -460 378 -452 409 -458 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 94.23    Median 99.0  ---  Min 49  Max 100
+Performance 0.0221         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.18    Median 46.0  ---  Min 1  Max 50
+Removing duplicate -557
+Removing duplicate -759
+Removing duplicate -761
+Removing duplicate 26
+Short-list: -558 -559 685 684 -560 -556 683 686 -555 -631 682 -632 -561 -760 780 779 -554 681 781 9 27 8 778 -633 782 25 28 -630 680 -762 783 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 97.32    Median 100.0  ---  Min 68  Max 100
+Performance 0.0205         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 36.80    Median 45.0  ---  Min 2  Max 50
+Removing duplicate 649
+Removing duplicate -796
+Removing duplicate 375
+Removing duplicate 781
+Short-list: -705 650 -793 -794 -706 -311 -792 651 370 371 -795 -704 369 -310 372 -312 -707 373 782 368 648 -791 374 783 652 -313 376 96 -38 -126 -39 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 98.23    Median 99.0  ---  Min 93  Max 100
+Performance 0.0221         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 376 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.47    Median 46.0  ---  Min 3  Max 50
+Removing duplicate -759
+Removing duplicate 376
+Removing duplicate 375
+Removing duplicate 396
+Removing duplicate -720
+Short-list: -757 -756 -758 -755 -718 377 397 -719 -754 -717 398 374 -760 373 378 -716 -893 191 372 192 -892 399 190 344 193 345 189 590 194 371 
+Merging data took 0.0 minutes     Large check took 0.0 minutes
+Epoch  ---   Mean 95.27    Median 99.0  ---  Min 61  Max 100
+Performance 0.0225         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 376 399 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 38.39    Median 46.5  ---  Min 1  Max 50
+Removing duplicate 649
+Removing duplicate 342
+Short-list: 340 645 646 644 647 648 643 341 339 642 650 763 -256 94 95 762 -692 -867 -255 338 -257 93 -868 641 764 -693 96 651 -254 -866 -869 -691 -650 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 95.03    Median 99.0  ---  Min 61  Max 100
+Performance 0.0219         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 376 399 339 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 38.32    Median 46.0  ---  Min 2  Max 50
+Removing duplicate 382
+Removing duplicate 380
+Short-list: -455 -454 -708 -709 -707 -453 -456 381 -706 -710 383 -633 -632 379 -705 28 45 -634 -452 27 29 -457 44 384 378 -250 637 -631 -249 46 -314 -315 -554 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 97.85    Median 99.0  ---  Min 89  Max 100
+Performance 0.0226         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 376 399 339 378 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 38.20    Median 46.0  ---  Min 2  Max 50
+Short-list: 111 110 -833 251 -832 252 250 -834 -729 109 -856 -855 -868 443 -857 -867 249 -728 -454 -858 -186 -455 -866 253 -831 -456 -869 -781 -187 -859 -453 -854 -730 444 -865 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 94.63    Median 99.0  ---  Min 62  Max 100
+Performance 0.0221         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 376 399 339 378 -456 
+
+Small check took 0.3 minutes
+Epoch  ---   Mean 37.10    Median 43.0  ---  Min 3  Max 50
+Removing duplicate -380
+Short-list: 301 -370 -734 300 -371 -733 -369 -282 -508 476 -735 224 -382 -381 -238 -237 299 -236 200 -509 -372 302 -507 199 -239 -732 -283 -235 -383 427 475 477 201 -368 
+Merging data took 0.0 minutes     Large check took 0.1 minutes
+Epoch  ---   Mean 93.65    Median 99.0  ---  Min 56  Max 100
+Performance 0.0230         Using indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 376 399 339 378 -456 -383 
+Final indexes -830 -797 -761 -720 -674 -620 -557 -480 -380 -240 0 255 342 385 375 -871 -99 -853 241 26 737 649 396 -432 488 -731 776 -800 507 -523 408 -759 -826 -796 207 -335 248 380 382 -570 781 376 399 339 378 -456 -383 
+Loading 1 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_angry.tentcqt
+Loading 2 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_happy.tentcqt
+Loading 3 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_original.tentcqt
+Loading 4 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_sad.tentcqt
+Loading 5 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Results/Pitch/Perigarden_tender.tentcqt
+Elapsed time is 15.361920 seconds.
+2 3 4 5 Elapsed time is 0.188988 seconds.
+363.15 Mb
+1 Elapsed time is 0.031797 seconds.
+64.67 Mb
+Calculation mode: MEX
+ 
+Training Pattern Recognition Neural Network with TRAINSCG.
+Epoch 0/600, Time 0.014645/43200, Performance 1.7743/0, Gradient 9.989/1e-06, Validation Checks 0/20
+Epoch 5/600, Time 2.9736/43200, Performance 0.55289/0, Gradient 0.57836/1e-06, Validation Checks 0/20
+Epoch 10/600, Time 6.1318/43200, Performance 0.36706/0, Gradient 0.46663/1e-06, Validation Checks 0/20
+Epoch 15/600, Time 10.4307/43200, Performance 0.24646/0, Gradient 0.35209/1e-06, Validation Checks 0/20
+Epoch 20/600, Time 16.1354/43200, Performance 0.20451/0, Gradient 0.12143/1e-06, Validation Checks 0/20
+Epoch 25/600, Time 21.1037/43200, Performance 0.14339/0, Gradient 0.28908/1e-06, Validation Checks 0/20
+Epoch 30/600, Time 25.2635/43200, Performance 0.11794/0, Gradient 0.19527/1e-06, Validation Checks 0/20
+Epoch 35/600, Time 29.196/43200, Performance 0.10751/0, Gradient 0.13068/1e-06, Validation Checks 0/20
+Epoch 40/600, Time 33.0067/43200, Performance 0.094825/0, Gradient 0.21133/1e-06, Validation Checks 3/20
+Epoch 45/600, Time 36.4931/43200, Performance 0.077648/0, Gradient 0.26453/1e-06, Validation Checks 0/20
+Epoch 50/600, Time 39.7618/43200, Performance 0.061772/0, Gradient 0.15755/1e-06, Validation Checks 0/20
+Epoch 55/600, Time 42.9625/43200, Performance 0.056199/0, Gradient 0.081155/1e-06, Validation Checks 2/20
+Epoch 60/600, Time 46.1282/43200, Performance 0.05259/0, Gradient 0.060617/1e-06, Validation Checks 2/20
+Epoch 65/600, Time 49.2676/43200, Performance 0.050013/0, Gradient 0.069517/1e-06, Validation Checks 1/20
+Epoch 70/600, Time 52.3971/43200, Performance 0.048673/0, Gradient 0.070177/1e-06, Validation Checks 0/20
+Epoch 75/600, Time 55.5193/43200, Performance 0.045301/0, Gradient 0.074943/1e-06, Validation Checks 1/20
+Epoch 80/600, Time 58.6361/43200, Performance 0.042548/0, Gradient 0.069157/1e-06, Validation Checks 6/20
+Epoch 85/600, Time 61.7364/43200, Performance 0.036638/0, Gradient 0.059767/1e-06, Validation Checks 1/20
+Epoch 90/600, Time 64.8294/43200, Performance 0.033345/0, Gradient 0.052381/1e-06, Validation Checks 0/20
+Epoch 95/600, Time 67.9134/43200, Performance 0.030338/0, Gradient 0.043753/1e-06, Validation Checks 3/20
+Epoch 100/600, Time 70.9948/43200, Performance 0.028744/0, Gradient 0.030357/1e-06, Validation Checks 0/20
+Epoch 105/600, Time 74.0716/43200, Performance 0.027929/0, Gradient 0.022278/1e-06, Validation Checks 0/20
+Epoch 110/600, Time 77.1552/43200, Performance 0.027364/0, Gradient 0.024035/1e-06, Validation Checks 4/20
+Epoch 115/600, Time 80.2578/43200, Performance 0.026882/0, Gradient 0.017175/1e-06, Validation Checks 9/20
+Epoch 120/600, Time 83.3737/43200, Performance 0.026533/0, Gradient 0.01976/1e-06, Validation Checks 3/20
+Epoch 125/600, Time 86.4909/43200, Performance 0.026171/0, Gradient 0.011578/1e-06, Validation Checks 8/20
+Epoch 130/600, Time 89.5991/43200, Performance 0.025908/0, Gradient 0.0098958/1e-06, Validation Checks 13/20
+Epoch 135/600, Time 92.6924/43200, Performance 0.025652/0, Gradient 0.01134/1e-06, Validation Checks 18/20
+Epoch 137/600, Time 93.9244/43200, Performance 0.025581/0, Gradient 0.0054601/1e-06, Validation Checks 20/20
+Training with TRAINSCG completed: Training finished: Met validation criterion
+ 
+Final performance 0.022822
+Confusion matrix percent (FF FT
+                          TT TF)
+0.933310   0.001641
+0.059570   0.005478
+
+True cases accuracy: 0.915779
+False cases accuracy: 0.998244
+
+
+
+             ----- Computing features before training pitchogram network -----
+
+Runnning:  i = 1     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_angry.wav
+Distorting
+Runnning:  i = 2     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_happy.wav
+Distorting
+Runnning:  i = 3     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_original.wav
+Distorting
+Runnning:  i = 4     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_sad.wav
+Distorting
+Growing tentSpecs: 12.01 Gb	12.01 Gb	
+
+Runnning:  i = 5     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_tender.wav
+Distorting
+Growing tentSpecs: 11.20 Gb	11.20 Gb	
+
+Batching took 2.8 minutes
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 37).
+Evaluating: i = 1     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_angry.wav
+Evaluating: i = 2     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_happy.wav
+Evaluating: i = 3     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_original.wav
+Evaluating: i = 4     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_sad.wav
+Evaluating: i = 5     /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_tender.wav
+Evaluating took 1.4 minutes
+
+
+             ----- Training pitchogram network -----
+
+Loading 1 /cluster/home/lamonsta/jau/2022/MusicTracker/Sets/script22/Songs/AllSongs/Mixes/Main/Perigarden_angry.wav
+>> 
+Task and CPU usage stats:
+JobID           JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+6157421          MyJob3         33                                             00:35:10      0:0 
+6157421.bat+      batch         33        1   12:34:00          0   12:34:00   00:35:10      0:0 
+6157421.ext+     extern         33        1   00:00:00          0   00:00:00   00:35:10      0:0 
+
+Memory usage stats:
+JobID            MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+6157421                                                                          
+6157421.bat+  67827680K          0  67827680K        0              0          0 
+6157421.ext+          0          0          0        0              0          0 
+
+Disk usage stats:
+JobID         MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+6157421                                                                                               
+6157421.bat+       10.18M               0         10.18M        0.01M                0          0.01M 
+6157421.ext+        0.00M               0          0.00M            0                0              0 
+
+Job 6157421 completed at Fri Jul 22 03:00:21 CEST 2022
