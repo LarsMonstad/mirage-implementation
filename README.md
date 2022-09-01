@@ -1,4 +1,4 @@
 # mirage-implemention
-Script for Sigma2 implementatioon
+Script for Sigma2 implementation
 
 
