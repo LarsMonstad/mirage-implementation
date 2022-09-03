@@ -1,8 +1,9 @@
 #!/bin/bash
-#create songfolder structure 
+# Create songfolder structure 
 #chmod +x testscript
 #example - ./testscript -e
 #csvconvert.py needs to be in rootfolder 
+# Created by Lars Monstad for the Mirage Project 
 while getopts e: flag
 do
     case "${flag}" in
