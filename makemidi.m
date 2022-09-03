@@ -8,7 +8,6 @@ cd(x);
 
 recurs;
 
-
 function recurs %(folder)
 %    cd (folder)
     d = dir;
@@ -32,9 +31,6 @@ function recurs %(folder)
         end
     end
 end
-
-
-
 
 function convert(filename)
 % convert to midi 
