@@ -4,6 +4,7 @@ import sys
 #extracting the 1(onset), 2(offset), 3(onpitch) and 5(essential) column.
 #taking command line as input
 #Run the script with the following command: python csvconvert.py test.csv > test.ann 
+# Created by Lars Monstad for the Mirage Project
 csvfile = open(sys.argv[1], newline='')
 
 c = csv.DictReader(csvfile)
