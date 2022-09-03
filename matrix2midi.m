@@ -1,4 +1,5 @@
 function midi=matrix2midi(M,ticks_per_quarter_note,timesig)
+
 % midi=matrix2midi(M,ticks_per_quarter_note)
 %
 % generates a midi matlab structure from a matrix
