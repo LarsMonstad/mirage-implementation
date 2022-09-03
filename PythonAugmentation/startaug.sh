@@ -3,7 +3,8 @@
 # forked from https://github.com/iver56/audiomentations and recoded by Lars Monstad for the Mirage Project
 #chmod +x testscript
 #example - ./testscript -e
-#csvconvert.py needs to be in rootfolder 
+#csvconvert.py needs to be in rootfolder
+# Created by Lars Monstad for the Mirage Project
 while getopts e: flag
 do
     case "${flag}" in
