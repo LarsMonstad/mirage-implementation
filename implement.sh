@@ -1,7 +1,7 @@
 #!/bin/bash
 # Create songfolder structure 
-#chmod +x testscript
-#example - ./testscript -e
+#chmod +x imeplement.sh
+#example - ./implement.sh -e
 #csvconvert.py needs to be in rootfolder 
 # Created by Lars Monstad for the Mirage Project 
 while getopts e: flag
