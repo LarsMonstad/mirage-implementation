@@ -1,8 +1,8 @@
 #!/bin/bash -l
-#SBATCH --account=nn9750k --job-name=bigmemtraining4020
+#SBATCH --account=nn9750k --job-name=bigmemtraining6415
 #SBATCH --time=3-0:0:0
-#SBATCH --ntasks=1 --cpus-per-task=40
-#SBATCH --mem-per-cpu=20G
+#SBATCH --ntasks=1 --cpus-per-task=64
+#SBATCH --mem-per-cpu=15G
 #SBATCH -e training4020.e
 #SBATCH -o training4020.txt
 #SBATCH --partition=bigmem
