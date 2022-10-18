@@ -1,9 +1,8 @@
 #!/bin/bash
-# Create songfolder structure 
-#chmod +x imeplement.sh
-#example - ./implement.sh -e 
+#create songfolder structure 
+#chmod +x testscript
+#example - ./testscript -e
 #csvconvert.py needs to be in rootfolder 
-# Created by Lars Monstad for the Mirage Project 
 while getopts e: flag
 do
     case "${flag}" in
@@ -123,10 +122,10 @@ ls
 #cd MusicTracker/Sets/february2/
 cd ../../../$foldername 
 
+
 # deleting all .DS_Store
 find . -name '.DS_Store' -type f -delete
-
-#cd $foldername 
+#d $foldername 
 
 for x in */
 do
@@ -149,11 +148,11 @@ do
    cd ../../MusicTracker/Sets/$foldername/Songs/$x/Mixes/Main
    # rm list.txt
    ls > list.txt
-   sed -i -e "s#^#\\\Songs\\\$x\\\Mixes\\\Main\\#" list.txt 
+   sed -i -e 's#^#\\\Songs\\\'"$x"'\\\Mixes\\\Main\\#' list.txt 
    sed -i -e "s#^#$foldername#" list.txt 
    sed -i '$d' list.txt 
    cat list.txt >> ../../../../../../Batches/Pitch/$foldername/list.txt
-   cd ../../../../../$foldername
+   cd ../../../../../../../$foldername
 done
 
 #delete the last line of listt
@@ -161,6 +160,5 @@ done
 
 # change scheluder to create ann2anf
 #   ann2anf('$foldername'); 
-
 
 
