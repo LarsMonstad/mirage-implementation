@@ -123,6 +123,9 @@ ls
 #cd MusicTracker/Sets/february2/
 cd ../../../$foldername 
 
+# deleting all .DS_Store
+find . -name '.DS_Store' -type f -delete
+
 #cd $foldername 
 
 for x in */
