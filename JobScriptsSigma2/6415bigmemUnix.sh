@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --account=nn9750k --job-name=bigmemtraining6415
-#SBATCH --time=3-0:0:0
+#SBATCH --time=10-0:0:0
 #SBATCH --ntasks=1 --cpus-per-task=64
 #SBATCH --mem-per-cpu=15G
 #SBATCH -e training4020.e
@@ -9,7 +9,7 @@
 
 #SBATCH  --licenses=matlab@uio
 
-module load MATLAB/2021b
+module load MATLAB/2022b
 module add libsndfile/1.0.28-GCCcore-9.3.0
 
 # Run matlab taking your_matlab_program.m as input and show the output in the file
